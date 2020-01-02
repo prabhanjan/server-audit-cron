@@ -8,6 +8,12 @@ include_once 'inc/config.php';
 $message = '';
 $domainList = getAllDocumentRoots();
 $message .= '<h2>Domains</h2>';
+
+if(isset($config["ssh_link"]))
+{
+	$message .= '<a href="'.$config["ssh_link"].'">'.$config["ssh_link"].'</a>';
+}
+
 $message .= arrayToList($domainList);
 
 
