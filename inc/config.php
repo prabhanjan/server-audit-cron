@@ -10,4 +10,5 @@ $config = array(
       'to' => '',
       'to_name' => '',
       'subject' => 'Git Status For server X',
+      'ssh_link' => '', 
 );
