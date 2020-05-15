@@ -13,6 +13,7 @@ composer install
 
 ## Config 
 ```
+cp inc/config-sample.php inc/config.php
 nano inc/config.php
 ```
 ```
