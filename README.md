@@ -1,5 +1,5 @@
 # Server Audit Cron
-This script will send a Git Status of all the virtual host in the server in you configured email ID.
+This script will send a Git Status of all the virtual host in the server to you configured email ID.
 
 You will have to set up a SMTP Setting in inc/config.php
 
